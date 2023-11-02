@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#2980b9 , #2c3e50);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.mainbox{
+    /* max-height: 650px; */
+    height: 550px;
+    width: 25%;
+    background: #fff;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    overflow-y: auto;
+}
+
+/* Style the scrollbar when it's visible */
+.mainbox::-webkit-scrollbar {
+    width: 5px; /* Adjust the width as needed */
+  }
+  
+  .mainbox::-webkit-scrollbar-thumb {
+    background-color: #88888800; /* Change the color as needed */
+  }
+  
+  .mainbox::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Change the color on hover as needed */
+    border-radius: 20px;
+  }
+
+.mainbox img{
+    height: 80px;
+    width: 240px;
+    display: block;
+    margin: auto;
+    border-bottom: 2px solid black;
+    border-width: 50%;
+    
+}
+
+.message{
+    /* background: red; */
+    max-height: 650px;
+    height: 400px;
+    
+    
+}
+
+/* .message span{
+    background: gray;
+    width: 10%;
+    padding: 10px;
+    border-radius: 20px;
+    width: 1px;
+    margin-top: 10px;
+} */
+
+.left{
+    height: 60px;
+    width: 60%;
+    background: gray;
+    padding: 10px;
+    /* border-radius: 20px; */
+    border-top-right-radius: 20px;
+    border-end-end-radius: 20px;
+    float: left;
+    /* clear: both; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.right{
+    height: 60px;
+    width: 60%;
+    background: gray;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-end-start-radius: 20px;
+    float: right;
+    /* clear: both; */
+    margin-top: 10px;
+
+}
+
+.sendmessage{
+    display: block;
+    margin: auto;
+    text-align: center;
+
+    
+}
+
+.messagebox{
+    width: 20.8%;
+    height: 40px;
+    padding-left: 10px;
+   
+    outline: 0;
+    border: 0;
+    border: 1px solid #ccc;
+    border-end-start-radius: 10px;
+    /* border-bottom-right-radius: 10px; */
+}
+
+.messagesendbtn{
+    width: 4%;
+    padding: 11px;
+    /* border-radius: 8px; */
+    /* border-top-right-radius: 10px; */
+    border-end-end-radius: 10px;
+    background: #fff;
+    position: relative;
+    right: 4px;
+    border: 0;
+    
+}
+
+.messagesendbtn i{
+    font-size: 15px;
+    color: green;
+    margin-right: 5px;
+   
+}

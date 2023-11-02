@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebChat</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2c57ec9cc3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="http://3.110.142.16/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.1/socket.io.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="mainbox">
+        <img src="./assets/WeChat-logo.png" alt="" srcset="" />
+
+        <div class="message" id="messagecontainer">
+          <!-- <div class="left">
+            <span>What Are You doing Rohan, i need some help</span>
+          </div>
+          <div class="right">
+            <span>Nothing Yaar! just Chealing. What is the problem</span>
+          </div> -->
+        </div>
+      </div>
+      <div class="sendmessage">
+        <form action="#" id="form">
+          <input
+            type="text"
+            class="messagebox"
+            placeholder="Enter the Message"
+            id="messageinput"
+          />
+          <button class="messagesendbtn">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
